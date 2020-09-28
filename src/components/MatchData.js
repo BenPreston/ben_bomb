@@ -58,6 +58,12 @@ function MatchData({ data }) {
       <h1 className="team_names_heading">
         {starting11[0].team.name} vs {starting11[1].team.name}
       </h1>
+      <p>
+        This is a first cut of the data. I wrote a function to go through each
+        match and then calculate each players given statistics such as shots and
+        goals. if you click on a player you will see a modal with a summary of
+        this data.
+      </p>
       <Row className="justify-content-md-center">
         {starting11.map((teamName) => {
           return (
